@@ -35,15 +35,15 @@ body{
     padding: 5px;
     width: 100vw;
     height: 100vh;
-    border: 10px inset var(--primary-color);
-    background: linear-gradient(60deg ,rgba(34, 210, 237, 0.753) , rgba(161, 228, 54, 0.808), rgba(255, 200, 0, 0.425))  no-repeat;
+    border: 5px inset var(--primary-color);
+    background: linear-gradient(150deg ,rgba(34, 210, 237, 0.753) , rgba(161, 228, 54, 0.808), rgba(255, 200, 0, 0.425))  no-repeat;
     
 }
 .my-container{
     height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(370px , 1fr));
-    grid-template-rows: repeat(3,minmax(350px , 1fr));
+    grid-template-rows: repeat(3,minmax(360px , 1fr));
     gap: 20px;
 }
 .cards{
@@ -85,7 +85,7 @@ body{
 }
 .education h4{
     display: inline-block;
-    color: var(--danger-color);
+    color: rgba(108,99,255,255);
     line-height: 0px;
     margin: 0 10px;
 }
@@ -108,7 +108,7 @@ body{
     margin: auto;
 }
 .Projects u{
-    color: var(--dark-color);
+    color: rgba(108,99,255,255);
 }
 .Projects sub{
     color: rgba(0, 0, 0, 0.63);
@@ -157,7 +157,7 @@ body{
 }
 .work-experience h4{
     margin: 0px 10px;
-    color: var(--danger-color);
+    color: rgba(108,99,255,255);
 }
 .work-experience h5{
     line-height: 12px;
